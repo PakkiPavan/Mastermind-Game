@@ -8,4 +8,4 @@ Mastermind game
   o	For each guess that is right in both color and position you get a black point
   o	For each guess that is right in color but not in position you get a red point
 
-•	You have twelve rows to make your guesses, if you exhaust all of them without guessing the code, you lost the game.
+•	You have ten rows to make your guesses, if you exhaust all of them without guessing the code, you lost the game.
