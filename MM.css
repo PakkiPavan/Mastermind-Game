@@ -75,3 +75,8 @@
 .colors{
 	text-align:center;
 }
+.copyrights{
+	position:absolute;
+	bottom:5px;
+	left:22%;
+}
