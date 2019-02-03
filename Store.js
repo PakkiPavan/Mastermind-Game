@@ -39,6 +39,9 @@ export function mapDispatchToProps(dispatch)
 		},
 		remQuestion:()=>{
 			dispatch({type:"remQuestion"})
+		},
+		emptyCode:()=>{
+			dispatch({type:"emptyCode"})
 		}
 	}
 }
