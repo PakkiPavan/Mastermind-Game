@@ -1,0 +1,77 @@
+.circle{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:3px solid black;
+	margin:5px;
+	outline:none;
+	cursor:pointer;
+}
+.green,.red,.yellow,.blue,.pink,.skyblue,.black{
+	background-color:green;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:none;
+	margin:5px;
+	outline:none;
+	cursor:pointer;
+}
+.red{
+	background-color:red;
+}
+.yellow{
+	background-color:yellow;
+}
+.blue{
+	background-color:blue;
+}
+.pink{
+	background-color:pink;
+}
+.skyblue{
+	background-color:skyblue;
+}
+.black{
+	background-color:black;
+}
+.check{
+	position:absolute;
+	height:44px;
+	cursor:pointer;
+}
+.row{
+	pointer-events:none;
+	width:200px;
+	text-align:center;
+}
+.hint{
+	position:absolute;
+	display:inline-block;
+	background-color:brown;
+	height:44px;
+	width:42px;
+	left:265px;
+	border-radius:5px;
+}
+.hint-up{
+	border-radius:50%;
+	height:14px;
+	width:14px;
+	border:none;
+	outline:none;
+	position:absolute;
+	top:5px;
+}
+.hint-down{
+	border-radius:50%;
+	height:14px;
+	width:14px;
+	border:none;
+	outline:none;
+	position:absolute;
+	bottom:5px;
+}
+.colors{
+	text-align:center;
+}
