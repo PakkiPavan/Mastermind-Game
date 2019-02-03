@@ -4,7 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import MM1 from './MM1';
+import MM1 from './main';
 import MMReducer from './MMReducer';
 
 
