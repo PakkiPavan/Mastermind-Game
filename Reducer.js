@@ -43,6 +43,11 @@ function MMReducer(state=initialState,action)
 			return{
 				...state,question:''
 			}
+		case "emptyCode":
+			return{
+				...state,code:[]
+			}
+			
 		default:
 			return state;
 	}
